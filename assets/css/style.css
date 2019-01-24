@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');100,200,300,400,500,600,700|:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');100,200,300,400,500,600,700|:100,200,300,400,500,600,700');
+
+
+/*---------------------------------------Body*/
+
+
+
+article {
+    background-color: #000;
+    
+    
+}
+
+
+body {
+    
+    background-color: #FDFEFE;
+    
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    
+}
+
+.color {
+    background-color: #F7F9F9;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.color2 {
+    background-color: #B3B6B7;
+    text-align: center;
+}
+
+.nav {
+    font-family: Libre Franklin sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.nav a {
+    color: #07A2FE;
+    padding: 0;
+    
+}
+.change {
+    
+    text-align: center;
+    Padding-top: 20px;
+    padding-bottom: 30px;
+    color: #283747;
+}
+
+
+.read-me {
+    color: red;
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+
+
+.about {
+    color: #283747;
+   ;
+}
+
+.list {
+    padding-bottom: 20px;
+}
+
+.about2 {
+    padding-bottom: 20px;
+}
+
+.vid-header {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+
+.detail {
+    text-align: left;
+}
+
+.detail2 {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.newsletter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #283747;
+    text-align: center;
+}
+
+.form-group {
+    color: #283747;
+    text-align: center;
+}
+
+
+
+.vision {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #283747;
+    padding-bottom: 20px;
+}
+
+.form-inline {
+    padding-bottom: 20px;
+}
+
+/*---------------------------------------Body*/
+
+/*-----------------------------------Colors*/ 
+.bg-colors-title {
+    color: #fafafa;
+}
+/*-----------------------------------Colors*/ 
+
+
+
+
+
+.blog {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    font-size: 45px;
+}
+
+.blog2 {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 700;
+     font-size: 19px;
+     text-align: center;
+    color: #283747;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+.blog2 p {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 600;
+     font-size: 17px;
+    color: #fafafa;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+
+
+.header {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    margin-top: 20px;
+}
+
+.header-subhead {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.gal-header {
+     color: #777;
+    text-align: left;
+    padding-top: 15px;
+}
+
+
+
+
+section p {
+    color: #fafafa;
+}
+
+.contacts {
+   padding-top: 40px;
+   padding-right: 20px;
+}
+
+.para {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    color: #283747;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.grid-element p {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #283747;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+
+
+.list-block a {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.page-header {
+    color: #777;
+}
+
+.text-uppercase {
+    text-align: left;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #797D7F;
+}
+
+.center-block {
+    margin-top: 20px;
+}
+.read {
+     text-align: center;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #797D7F;
+}
+
+.testimonial p {
+    font-family: Indie Flower, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #283747;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.testimonial small {
+    padding-bottom: 20px;
+}
+
+.testimonial2 p {
+    font-family: Indie Flower, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #283747;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button1 {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.button2 {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.media-left {
+    padding-bottom: 50px;
+}
+
+.media-object {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+    
+
+/*-----------------------------------Social*/
+
+.social-links   {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: right;
+}
+
+.social-links2   {
+    margin-left: 0px;
+    text-align: left;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 22px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook:hover {
+    opacity: 0.7;
+    color: 	#3b5998;
+    font-size: 60px;
+      transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.fa-twitter:hover {
+    opacity: 0.7;
+    color: #1da1f2;
+    font-size: 60px;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-youtube:hover {
+    opacity: 0.7;
+    color: #ff3333;
+    font-size: 60px;
+}
+.fa-google:hover {
+    opacity: 0.7;
+    color: #c63d2d;
+    font-size: 60px;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-facebook {
+  color: #3b5998;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+   transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.fa-youtube {
+  color: #ff3333;
+   transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-google {
+  color: #C63D2D;
+   transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+
+
+/*-----------------------------------Social*/
+
+/*-----------------------------------Logo's & Images*/
+
+.navbar-nav a {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 18px;
+    background-color: #1B2631;
+    color: #fafafa;
+   
+}
+
+.navbar-collapse {
+    color: #212F3C;
+}
+
+
+
+.navbar-header{
+    background-color: #212F3C;
+}
+
+.navbar-fixed-top {
+    background-color: #1B2631;
+    padding-left: 40px;
+}
+
+#logo2 {
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo1 {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo3 {
+    float:left;
+    padding-top: 20px;
+}
+
+.image {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.image2 {
+    width: 25%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+
+}
+
+.top {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bg-photo {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+iframe {
+     height: 500px; 
+    width: 400px;
+}
+
+.btn-default {
+    background-color: #07A2FE;
+    color: #fafafa;
+    
+}
+
+.btn-default:hover {
+    background-color: #fafafa;
+    color: #07a2fe;
+}
+
+
+
+.btn-primary:hover {
+    background-color: #fafafa;
+    color: #07a2fe;
+}
+
+
+
+/*-----------------------------------Logo's & Images and Hovers*/
+
+.test-image {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.big-photo {
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+
+
+.my-photo {
+    padding-top: 20px;
+}
+
+.small-photo {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.nav {
+    font-family: Libre Franklin sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.nav a {
+    color: #283747;
+    
+}
+.donate {
+    position: relative;
+    text-align: center;
+    color: #fafafa;
+}
+
+
+ /*------------------------------------------Footer*/
+ 
+
+footer {
+    background-color: #000;
+    padding-top: -10px;
+    
+}
+
+.donate2 {
+    font-family: Indie Flower, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #fafafa;
+    list-style-type: none;
+    margin-top: 35px;
+    
+}
+
+.links a {
+     font-family: Indie Flower, sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #fafafa;
+    padding-top : 35px;
+    padding-left: 45px;
+}
+
+.contacts a {
+    font-family: Indie Flower, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #fafafa;
+    padding-left: 20px;
+}
+
+
+
+.copy-right {
+    margin-left: 20px;
+}
+ 
+  /*------------------------------------------Footer*/
+  
+  /*------------------------------------------Media Queries*/
+  
+  @media(max-width: 767px) {
+      .header {
+          text-align: center;
+          margin-top: 20px;
+      }
+  }
+  
+  @media(max-width: 767px) {
+      .header-subhead {
+          margin-left: 40px;
+      }
+  }
+  
+
+  
+ 
+  
+  @media(max-width: 767px) {
+      .contacts {
+          text-align: left;
+      }
+  }
+  
+  @media(min-width: 767px) {
+      .logo3  {
+          padding-right: 20px;
+      }
+  }
+  
+    @media(min-width: 992px) {
+      .logo3  {
+          padding-right: 20px;
+      }
+  }
+  
+  @media(min-width: 992px) {
+      .big-photo {
+          margin-right: 30px;
+      }
+  }
+  
+  @media(max-width: 767px) {
+      .top{
+          margin-right: 30px;
+      }
+  }
+  
+  @media(min-width: 992px) {
+      .main {
+          padding-left: 50px;
+      }
+  }
+  
+  @media(min-width: 992px ) {
+      .links {
+          text-align: left;
+      }
+  }
+  
+
+
+  
+ 
+  
+
+  /*------------------------------------------Media Queries*/
+
+
+
