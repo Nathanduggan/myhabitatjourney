@@ -16,13 +16,13 @@ $(".button1").click(function() {
 
 $(".button1").on({
     mouseenter: function() {
-        $(this).css("background-color", "lightgrey");
+        $(this).css("background-color", "#07a2fe");
     },
     mouseleave: function() {
-    $(this).css("background-color", "lightblue");
+    $(this).css("background-color", "#fafafa");
 },
 click: function() {
-    $(this).css("background-color", "yellow");
+    $(this).css("background-color", "#07a2fe");
     }
     });
     

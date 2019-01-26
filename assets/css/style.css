@@ -289,13 +289,17 @@ section p {
 .button1 {
     padding: 0;
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
+    background-color: #07a2fe;
+    color: #fafafa;
 }
 
 .button2 {
     padding: 0;
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
+    background-color: #07a2fe;
+    color: #fafafa;
 }
 
 .media-left {
@@ -310,8 +314,10 @@ section p {
 
 
 
-
-
+#map {
+    min-height: 560px;
+    margin-bottom: 20px;
+}
     
 
 /*-----------------------------------Social*/
