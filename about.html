@@ -19,7 +19,6 @@
 <body>
     <header class="container">
         <section>
-            .underline {text-decoration: underline; } .border{ botder: solid 2px; }
             <div class="row">
                 <div class="col-xs-12">
                     <ul class="list-inline social-links">
@@ -216,7 +215,6 @@
     
     
     <script>
-   
          function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 3,
@@ -224,9 +222,40 @@
           mapTypeId: 'terrain'
         });
         
-         }
-      
-    
+        var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+        
+        var locations = [
+            { lat: 53.3498, lng: -6.2603},
+            { lat: -5.1521, lng: 46.1996},
+            { lat: -16.0252, lng: 35.5083}
+            ];
+            
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+                var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+            });
+
+        var flightPlanCoordinates = [
+          {lat: 53.3498, lng: -6.2603},
+          {lat: -5.1521, lng: 46.1996},
+          {lat: -13.2543, lng: 34.3015},
+          {lat: -16.0252, lng: 35.5083}
+        ];
+        var flightPath = new google.maps.Polyline({
+          path: flightPlanCoordinates,
+          geodesic: true,
+          strokeColor: '#FF5733',
+          strokeOpacity: 2.0,
+          strokeWeight: 1
+        });
+
+        flightPath.setMap(map);
+      }
+        
     </script>
      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqdk9-aUUU2FkAeGunnGSAPyxsIn9mXIY&callback=initMap">
