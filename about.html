@@ -215,7 +215,7 @@
     
     
     <script>
-         function initMap() {
+         function initMap(google) {
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 3,
           center: {lat: 54.5260, lng: 15.2551},
@@ -229,7 +229,7 @@
           {lat: -13.2543, lng: 34.3015},
           {lat: -16.0252, lng: 35.5083}
         ];
-        var flightPath = new google.maps.Polyline({
+         var flightPath = new google.maps.Polyline({
           path: flightPlanCoordinates,
           geodesic: true,
           strokeColor: '#FF5733',
