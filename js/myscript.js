@@ -19,7 +19,7 @@ $(".button1").on({
         $(this).css("background-color", "#07a2fe");
     },
     mouseleave: function() {
-    $(this).css("background-color", "#fafafa");
+    $(this).css("background-color", "#07a2fe");
 },
 click: function() {
     $(this).css("background-color", "#07a2fe");

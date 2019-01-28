@@ -118,48 +118,20 @@
                 
                 
             </div>
-            <section>
-                 <div>
-                <h1 class="text-uppercase">My Flight Plan<i class="fa fa-plane"></i></h1>
             
-                <div class="history-items">
-                    <div class="timeline-item" data-dates="02/08/2019">
-                        <h4>Depart from Dublin Airport</h4>
-                        <p></p>
-                    </div>
-                    <div class="timeline-item" data-dates="02/08/2019">
-                        <h4>Arrive in Madrid Airport</h4>
-                        <p><small>1 Hour stop in Madrid</small></p>
-                    </div>
-                    <div class="timeline-item" data-dates="02/08/2019">
-                        <h4>Depart Madrid Airport</h4>
-                        <p></p>
-                    </div>
-                    <div class="timeline-item" data-dates="03/08/2019">
-                        <h4>Arrive in Somalia Airport</h4>
-                        <p><small>1 Hour until next Flight</small></p>
-                    </div>
-                     <div class="timeline-item" data-dates="03/08/2019">
-                        <h4>Depart Somalia Airport</h4>
-                        <p><small>6 hour flight to Blantyre</small></p>
-                    </div>
-                     <div class="timeline-item" data-dates="03/08/2019">
-                        <h4>Arrive at Blantyre Airport</h4>
-                        <p><small>Travel to Mulanje by bus</small></p>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
-            
-            </section>
-            
-           
-            
-            <section class="container">
-                <div id="map"></div>
-            </section>
-            
+		<section class="container-fluid color">
+			<h2 class="small-photo"><small>If you would like to receive emailed updates on my experience<br> of volunteering
+         with Habitat for Humanity, please fill in your details below</small></h2>
+			<form class="form-inline">
+				<h2 class="newsletter">Sign up to Volunteer</h2>
+				<div class="form-group">
+				
+				 <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/><br><br>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Questions?" required></textarea><br><br>
+                    <button type="submit" class="btn btn-secondary center-block">Submit</button>
+                </form>
+		</section>
             
 
     </section>
@@ -172,7 +144,7 @@
                 <div class="menu-list"><span><ul class="links"><br>
                      <a href="index.html"<li>Home</li></a><br><br>
                     <a href="testimonials.html"<li>Testimonial</li></a><br><br>
-                     <a href="about-us.html"<li>About</li></a><br><br>
+                     <a href="about.html"<li>About</li></a><br><br>
                      <a href="video.html"<li>Videos</li></a><br><br>
                      <a href="gallery.html"<li>Gallery</li></a><br><br></span></div>
             </div>
@@ -215,30 +187,6 @@
     
     
     <script>
-         function initMap(google) {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 3,
-          center: {lat: 54.5260, lng: 15.2551},
-          mapTypeId: 'terrain'
-        });
-        
-
-        var flightPlanCoordinates = [
-          {lat: 53.3498, lng: -6.2603},
-          {lat: -5.1521, lng: 46.1996},
-          {lat: -13.2543, lng: 34.3015},
-          {lat: -16.0252, lng: 35.5083}
-        ];
-         var flightPath = new google.maps.Polyline({
-          path: flightPlanCoordinates,
-          geodesic: true,
-          strokeColor: '#FF5733',
-          strokeOpacity: 2.0,
-          strokeWeight: 1
-        });
-
-        flightPath.setMap(map);
-      }
         
     </script>
      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
