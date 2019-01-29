@@ -13,3 +13,13 @@ function sendMail(contactForm) {
         });
     return true;  // To block from loading a new page
 }
+
+/*-------------------------JQuery*/
+
+$("input").focus(function() {
+    $(this).css("background-color", "#BFC9CA");
+});
+
+$("textarea").focus(function() {
+    $(this).css("background-color", "#BFC9CA");
+});
