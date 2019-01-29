@@ -11,7 +11,7 @@ function sendMail(contactForm) {
         function(error) {
             console.log("FAILED", error);
         });
-    return true;  // To block from loading a new page
+     // To block from loading a new page
 }
 
 /*-------------------------JQuery*/
