@@ -40,32 +40,32 @@ click: function() {
     
     $(document).ready(function(){
      $(".panel").click(function(){
-    $("#panel").slideDown("slow");
+    $("#panel").slideToggle("slow");
   });
     });
     
       $(".panel2").click(function(){
-    $("#panel2").slideDown("slow");
+    $("#panel2").slideToggle("slow");
   });
   
      $(".panel3").click(function(){
-    $("#panel3").slideDown("slow");
+    $("#panel3").slideToggle("slow");
   });
   
      $(".panel4").click(function(){
-    $("#panel4").slideDown("slow");
+    $("#panel4").slideToggle("slow");
   });
 
    $(".panel5").click(function(){
-    $("#panel5").slideDown("slow");
+    $("#panel5").slideToggle("slow");
   });
 
    $(".panel6").click(function(){
-    $("#panel6").slideDown("slow");
+    $("#panel6").slideToggle("slow");
   });
 
    $(".panel7").click(function(){
-    $("#panel7").slideDown("slow");
+    $("#panel7").slideToggle("slow");
   });
 
 
