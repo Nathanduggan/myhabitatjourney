@@ -1,5 +1,5 @@
 $(".button1").click(function() {
-        $(".test1").fadeToggle('slow');
+        $(".test1").slideToggle('slow');
         
    });
       
@@ -16,25 +16,25 @@ $(".button1").click(function() {
 
 $(".button1").on({
     mouseenter: function() {
-        $(this).css("background-color", "#07a2fe");
+        $(this).css("background-color", "#");
     },
     mouseleave: function() {
-    $(this).css("background-color", "#07a2fe");
+    $(this).css("background-color", "#");
 },
 click: function() {
-    $(this).css("background-color", "#07a2fe");
+    $(this).css("background-color", "#");
     }
     });
     
     $(".button2").on({
     mouseenter: function() {
-        $(this).css("background-color", "lightgrey");
+        $(this).css("background-color", "#");
     },
     mouseleave: function() {
-    $(this).css("background-color", "lightblue");
+    $(this).css("background-color", "#");
 },
 click: function() {
-    $(this).css("background-color", "yellow");
+    $(this).css("background-color", "#");
     }
     });
     

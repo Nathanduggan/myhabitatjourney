@@ -1,5 +1,7 @@
 # My Habitat Journey
 
+# Demo: https://nathanduggan.github.io/myhabitatjourney/
+
 ## The User's
 
 When deciding upon the purpose of my website, I thought it would be useful to create something that I can use in the future. As stated in the website, I am planning to travel to Malawi in August 2019 to volunteer with a charity called Habitat for Humanity Ireland.  Therefore, I decided to create a site that provides information on what I’m doing whilst encouraging users to donate to Habitat for Humanity Ireland. The Home page is focused upon my intention to volunteer with Habitat and what I will do while in Malawi. There is also a section about the charity that I’m volunteering with. There is only a small amount of information on the home page but an option to find out more is provided with the inclusion of a “Read More” button which leads the user to a separate page, entitled ‘About HFH’.  This allows the user to receive some initial information whilst encouraging them to explore the site further. 

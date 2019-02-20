@@ -291,19 +291,13 @@ section p {
 }
 
 .button1 {
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    background-color: #07a2fe;
-    color: #fafafa;
+    margin-top: 20px;
 }
 
 .button2 {
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    background-color: #07a2fe;
-    color: #fafafa;
+    
+    margin-top:20px;
+    font-size: 18px;
 }
 
 .media-left {
