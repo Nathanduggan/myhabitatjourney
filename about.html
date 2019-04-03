@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
+    <title>My Journey</title>
+ <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
@@ -12,9 +13,11 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-		<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-<script type="text/javascript">
+
+		<title>My journey</title>
+		<script>
+		
+
     (function() {
         emailjs.init("user_IiScixNvjLrC3CiJwZ1Hf");
         /*emailjs.send("gmail", "nathan",{name: "Nathan", notes: "check this out"});*/
@@ -57,11 +60,11 @@
                             <div id="navbar" class="collapse navbar-collapse">
                                 <ul class="nav navbar-nav">
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About HFH</a></li>
+                                    <li><a class="current" href="about.html">About HFH</a></li>
                                     <li><a href="testimonials.html">Testimonials</a></li>
                                     <li><a href="gallery.html">Gallery</a></li>
                                     <li><a href="video.html">Videos</a></li>
-                                    <button type="button" class="btn btn-primary btn-lg hidden-sm">Donate!</button>
+                                    <li><a href="https://malawi-build-2019.everydayhero.com/ie/nathan-tasha-malawi-2019?fbclid=IwAR0B35IoLoZ8hL3cyBlsMEQdlXLzy0fzANs4zsinFR64mr6pjitCG2iS_WE"><button type="button" class="btn btn-primary btn-lg hidden-sm">Donate!</button></a></li>
                                 </ul>
                             </div>
                             <!--/.nav-collapse -->
@@ -129,15 +132,23 @@
 		<section class="container-fluid color">
 			<h2 class="small-photo"><small>If you would like to receive emailed updates on my experience<br> of volunteering
          with Habitat for Humanity, please fill in your details below</small></h2>
-			<form onsubmit="return sendMail(this);" class="form-inline">
+			<form onsubmit="return sendMail(this);" class="form-inline" id="details">
 				<h2 class="newsletter">Sign up to our Newsletter</h2>
+				<legend>Details:</legend>
+ 	<form onsubmit="return sendMail(this);" class="form-inline">
+				<h2 class="newsletter">Sign up to our</h2>
 				<div class="form-group">
 				
-				 <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+				 <input type="text" name="name" class="form-control" id="fullname" method="GET" placeholder="Name" required/>
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/><br><br>
                     <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Questions?" required></textarea><br><br>
                     <button type="submit" class="btn btn-secondary center-block">Submit</button>
                 </form>
+		</section>
+		
+<script>
+$("#commentForm").validate();
+</script>
 		</section>
 		
 		
@@ -171,7 +182,7 @@
                      <li>You can Donate</li>
                      <li>On my</li>
                      <li>Every day her page</li><br>
-                     <li>DONATE NOW!</li></span></div>
+                     <li><a href="https://malawi-build-2019.everydayhero.com/ie/nathan-tasha-malawi-2019?fbclid=IwAR0B35IoLoZ8hL3cyBlsMEQdlXLzy0fzANs4zsinFR64mr6pjitCG2iS_WE">DONATE NOW!</li></span></div>
             </div>
 
             <div class="col-xs-12">
@@ -194,13 +205,7 @@
 
     </footer>
     <script src="js/sendEmail.js"></script>
-    
-     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqdk9-aUUU2FkAeGunnGSAPyxsIn9mXIY&callback=initMap">
-    </script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-		<script src="js/myscript.js"></script>
-		<script  src="js/maps.js"></script>
+
 
 </body>
 

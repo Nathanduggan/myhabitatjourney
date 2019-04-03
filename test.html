@@ -1,55 +1,16 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Datepicker - Default functionality</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
-  </script>
-</head>
-<body>
- 
-<p id="datepicker"></p>
- 
- <script>
-     function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 54.5260, lng: 15.2551},
-          zoom: 6,
-          mapTypeId: 'terrain'
-        });
+<div class="wrapper">
 
-        // Define the symbol, using one of the predefined paths ('CIRCLE')
-        // supplied by the Google Maps JavaScript API.
-        var lineSymbol = {
-          path: google.maps.SymbolPath.CIRCLE,
-          scale: 8,
-          strokeColor: '#393'
-        };
+  <ul>        
+     <li class="facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
 
-        // Create the polyline and add the symbol to it via the 'icons' property.
-        var line = new google.maps.Polyline({
-          path: [{lat: 53.3498, lng: -6.2603}, {lat: -16.0252, lng: 35.5083}, {lat: -5.1521, lng: 46.1996},
-          {lat: -13.2543, lng: 34.3015}],
-          icons: [{
-            icon: lineSymbol,
-            offset: '100%'
-          }],
-          map: map
-        });
+     <li class="twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li>
 
-        animateCircle(line);
-      }
- </script>
-</body>
-</html>
+     <li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
 
-{lat: -5.1521, lng: 46.1996},
-          {lat: -13.2543, lng: 34.3015},
+     <li class="google"><i class="fa fa-google fa-2x" aria-hidden="true"></i></li>
+
+     <li class="whatsapp"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></li>
+
+  </ul>
+
+</div>
