@@ -113,7 +113,7 @@ h4 {
 .newsletter {
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #283747;
+    color: #B3B6B7;
     text-align: center;
 }
 
@@ -517,6 +517,11 @@ iframe {
     padding-bottom: 20px;
     text-align: center;
 }
+
+.small-photo small {
+    color: #B3B6B7;
+    
+}
 .nav {
     font-family: Libre Franklin sans-serif;
     font-weight: 300;
@@ -822,6 +827,12 @@ footer {
 }
 /*----------------------------------------*/
 
+#contact {
+  background-color: #212529;
+  background-image: url("../images/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 
 
