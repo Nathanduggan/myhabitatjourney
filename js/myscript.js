@@ -1,30 +1,3 @@
-$(document).ready(function(){
-    /*----$(".fa-facebook").hover(function(){
-    $(this).css("font-size", "44px");
-    }, function(){
-    $(this).css("font-size", "22px");
-  });
-});
-
-$(".fa-twitter").hover(function(){
-    $(this).css("font-size", "44px");
-    }, function(){
-    $(this).css("font-size", "22px");
-  });
-  
-  $(".fa-youtube").hover(function(){
-    $(this).css("font-size", "44px");
-    }, function(){
-    $(this).css("font-size", "22px");
-  });
-  
-  $(".fa-google").hover(function(){
-    $(this).css("font-size", "44px");
-    }, function(){
-    $(this).css("font-size", "22px");
-  });
-  */
-
 $(document).ready(function() {
     $(".panel").click(function() {
         $("#panel").slideToggle("slow");
@@ -55,6 +28,6 @@ $(".panel7").click(function() {
     $("#panel7").slideToggle("slow");
 });
 
-});
+
 
 

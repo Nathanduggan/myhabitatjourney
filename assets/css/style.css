@@ -30,6 +30,38 @@ h4 {
     
 }
 
+/*-----------------------------------Nav*/
+
+.nav {
+    font-family: Libre Franklin sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.navbar-collapse {
+    color: #212F3C;
+}
+
+.nav .current {
+    background-color: #ECF0F1;
+}
+
+
+.nav {
+    font-family: Libre Franklin sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.nav a {
+    color: #283747;
+    
+}
+
+
+/*-----------------------------------EndNav*/
+
+
 .color {
     background-color: #F7F9F9;
     text-align: center;
@@ -39,22 +71,6 @@ h4 {
 .color2 {
     background-color: #B3B6B7;
     text-align: center;
-}
-
-.nav {
-    font-family: Libre Franklin sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-}
-
-.nav a {
-    color: #07A2FE;
-    padding: 0;
-    
-}
-
-.nav .current {
-    background-color: #ECF0F1;
 }
 
 .page1 {
@@ -178,6 +194,14 @@ h4 {
     color: #fafafa;
     margin-top: 15px;
     margin-bottom: 10px;
+}
+
+.blog3 {
+    font-family: Libre Franklin, sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .center {
@@ -331,10 +355,10 @@ section p {
 /*-----------------------------------Social*/
 
 .social-links   {
-    padding-top: 100px;
+    padding-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    text-align: right;
+    text-align: centre;
 }
 
 .social-links2   {
@@ -349,6 +373,40 @@ section p {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+}
+
+.fa-facebook:hover {
+    opacity: 0.7;
+    color: 	#3b5998;
+    transform: scale(2.0);
+      transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.fa-twitter:hover {
+    opacity: 0.7;
+    color: #1da1f2;
+    transform: scale(2.0);
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-youtube:hover {
+    opacity: 0.7;
+    color: #ff3333;
+    transform: scale(2.0);
+}
+.fa-google:hover {
+    transform: scale(2.0);
+    opacity: 0.7;
+    color: #c63d2d;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 
@@ -393,30 +451,7 @@ section p {
 
 /*-----------------------------------Logo's & Images*/
 
-.navbar-nav a {
-    font-family: Libre Franklin, sans-serif;
-    font-weight: 700;
-    letter-spacing: 5px;
-    font-size: 18px;
-    background-color: #1B2631;
-    color: #fafafa;
-   
-}
 
-.navbar-collapse {
-    color: #212F3C;
-}
-
-
-
-.navbar-header{
-    background-color: #212F3C;
-}
-
-.navbar-fixed-top {
-    background-color: #1B2631;
-    padding-left: 40px;
-}
 
 #logo2 {
     padding-left: 40px;
@@ -426,7 +461,7 @@ section p {
 
 .logo1 {
     text-align: left;
-    margin-top: 0px;
+    margin-top: 80px;
     margin-bottom: 60px;
     margin-right: 20px;
 }
@@ -522,16 +557,7 @@ iframe {
     color: #B3B6B7;
     
 }
-.nav {
-    font-family: Libre Franklin sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-}
 
-.nav a {
-    color: #283747;
-    
-}
 .donate {
     position: relative;
     text-align: center;
