@@ -17,7 +17,7 @@ Straight away the user will see my Logo. They will also see Links to various soc
 Scrolling down the page the user will see an image of me holding a Habitat jumper.
 Just below this, users will see my blog, where I detail exactly what I am doing, what my trip is all about, when it takes place, and how much I will need to raise in order to go.
 Further down the page users will see text that will briefly inform them about the charity Habitat for Humanity. If the user clicks on the read more button they will be brought to the ‘About HFH’ page where they can learn more about the charity. 
-Next, users will be able to sign up for a newsletter on my fundraising journey and trip by entering their name and Email address and what ever questions they may have.
+Next, users will be able to sign up for a newsletter on my fundraising journey and trip by entering their name and Email address and whatever questions they may have.
 Lastly is the footer, which will allow the users to navigate to multiple pages.
 
 #### The About HFH Page:
@@ -68,21 +68,21 @@ The Second \is a video that depicts how a Habitat Home can instil hope for famil
     - Type in your name. If nothing is entered an error will come after you click the sign-up Button.
     - Type your email. Again an error will pop up if nothing is entered or if the '@' Symbol isn't
        included.
-    - When the user clciks in the email, name or questions box, the background 
-      will turn grey in color and once the
+    - When the user clicks in the email, name or questions box, the background 
+      will turn grey in colour and once the
       user starts to type the text will be in white.
     - I have tested the Emailjs with multiple email address on all screen sizes
       and received every email to my email address: Nathan.duggan0@gmail.com
 ##### My Flight section (Homepage):
-    - Here the user will be my flight plan and if the user clicks on the Aerpalne icon
+    - Here the user will be my flight plan and if the user clicks on the Airplane icon
       More information will appear and once they click it again it will disappear.
 ##### Google Maps Api (Homepage):
-    - The user will see a red line from my starting location to my distination.
+    - The user will see a red line from my starting location to my destination.
     - They will also be able to use the Map and zoom in and out and even
       open Google street view.
     - This has also been tested on all screen sizes. 
 ##### Testimonials:
-    - Here the user will be able to hide and show the voulenteers comment by
+    - Here the user will be able to hide and show the volunteers comment by
      clicking on the hide/show button. It will fade out and in. 
 ##### The Footer: (Applies to ever Page)
      - Go to home page, scroll down to the footer, click on the Logo and it will bring you back
@@ -138,4 +138,4 @@ The Second \is a video that depicts how a Habitat Home can instil hope for famil
      Her insight and enthusiasm are very much appreciated. 
      I would also like to thank my mentor Guido . His support throughout has been of great assistance. 
      Lastly, I would like to acknowledge my dad who encouraged me to start this course in the 
-     pursuit of bettering my career prospects. 
+     pursuit of bettering my career prospects.
