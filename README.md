@@ -40,7 +40,7 @@ Scrolling down the Users will see photo of the Malawian people including Childre
 On the last page the Users will find Videos of Habitat. 
 The first video is Habitat for Humanity promotional video
 which demonstrates the impact their work can have in countries like Malawi.
-The Second \is a video that depicts how a Habitat Home can instil hope for families. */.
+The Second is a video that depicts how a Habitat Home can instil hope for families.
 
 ## Technologies Used:
  - <a href="https://getbootstrap.com" rel="nofollow">Bootstrap</a> for modern styling with responsive navigation, tables and cards 
@@ -48,6 +48,11 @@ The Second \is a video that depicts how a Habitat Home can instil hope for famil
  - <a href="https://jquery.com" rel="nofollow">Jquery</a> and Popper Js for Bootstrap functionality.
  - <a href="https://fonts.google.com" rel="nofollow">Google Fonts</a> for fast loading on Exo 2 font.
  - <a href="https://json.org/" rel="nofollow">JSON</a> for building a quasi database of records in JSON that can be loaded to individual pages.
+ 
+## Resources:
+ - <a href="https://stackoverflow.com" rel="nofollow">Stackoverflow</a>
+ - <a href="https://www.w3schools.com" rel="nofollow">W3 Schools</a>
+ - Google
 
 ## Testing.
 
