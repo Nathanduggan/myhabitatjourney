@@ -110,9 +110,13 @@ The Second \is a video that depicts how a Habitat Home can instil hope for famil
    - I have tested all screens on multiple Browsers, including,
      Google Chrome, Safari, Firefox and Internet Explorer.
 ## Deployment: 
-    - I deployed my project on Github.
+    - This project was deployed via github pages from the master branch
     - I first ran a git init and started to track my files/images and committed them and then 
       pushed them up to Github, were they all open and load with no issues. 
+    - I then logged into my github profile page and clicked on my project's name.
+    - Clicked on settings, scrolled down to Github Pages,
+    - Under source, Selected master branch. 
+    - Deployment Link: https://nathanduggan.github.io/my_habitat_journey/index.html
 ## Contents:
    - The first image on the Home page was taken by Natasha Thompson for the purposes of this project. The text below it was written by me.
    - Half of the Logo was copied from the Habitat Website: https://www.habitatireland.ie/.
