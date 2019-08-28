@@ -43,10 +43,10 @@ which demonstrates the impact their work can have in countries like Malawi.
 The Second \is a video that depicts how a Habitat Home can instil hope for families. */.
 
 ## Technologies Used:
- - Bootstrap for modern styling with responsive navigation, tables and cards 
+ - <a href="https://getbootstrap.com" rel="nofollow">Bootstrap<'/a> for modern styling with responsive navigation, tables and cards 
  - Javascript for implementation of JSON files, pagination, button and search functionality.
- - Jquery and Popper Js for Bootstrap functionality.
- - Google fonts for fast loading on Exo 2 font.
+ - <a href="https://jquery.com" rel="nofollow">Jquery</a> and Popper Js for Bootstrap functionality.
+ - <a href="https://fonts.google.com" rel="nofollow">Google Fonts</a> for fast loading on Exo 2 font.
  - <a href="https://json.org/" rel="nofollow">JSON</a> for building a quasi database of records in JSON that can be loaded to individual pages.
 
 ## Testing.
